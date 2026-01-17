@@ -40,14 +40,13 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { platform: 'GitHub', icon: 'fa-github', link: 'https:/github.com/lilkeed', color: '#333' },
-    { platform: 'LinkedIn', icon: 'fa-linkedin', link: 'https:/Linkedin/siraritaonshe', color: '#0077B5' },
-    { platform: 'instagram', icon: 'fa-instagram', link: 'https:/www.instagram.com/lil_keed1', color: '#1DA1F2' },
-    { platform: 'Facebook', icon: 'fa-facebook', link: 'https:/facebook.com/Taonashe Sirari', color: '#333' },
+    { platform: 'GitHub', icon: 'fa-github', link: 'https://github.com/lilkeed', color: '#333' },
+    { platform: 'LinkedIn', icon: 'fa-linkedin', link: 'https://www.linkedin.com/in/siraritaonshe', color: '#0077B5' },
+    { platform: 'Instagram', icon: 'fa-instagram', link: 'https://www.instagram.com/lil_keed1', color: '#C13584' },
+    { platform: 'Facebook', icon: 'fa-facebook', link: 'https://www.facebook.com/TaonasheSirari', color: '#1877F2' },
     { platform: 'Email', icon: 'fa-envelope', link: 'mailto:siraritaonashe@gmail.com', color: '#EA4335' },
-    
   ];
-
+  
   const handleChange = (e) => {
     setFormData({
       ...formData,
