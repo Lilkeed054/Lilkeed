@@ -261,9 +261,9 @@ const Hero = () => {
       <div className="position-fixed bottom-0 end-0 mb-4 me-4 d-none d-lg-block z-3">
         <div className="d-flex flex-column gap-2">
           {[
-            { icon: 'fa-github', color: 'dark', href: 'https:/github.com/lilkeed' },
-            { icon: 'fa-linkedin', color: 'primary', href: 'https:/Linkedin/siraritaonshe' },
-            { icon: 'fa-instagram', color: 'info', href: 'https:/www.instagram.com/lil_keed1' },
+            { icon: 'fa-github', color: 'dark', href: 'https://github.com/lilkeed' },
+            { icon: 'fa-linkedin', color: 'primary', href: 'https://Linkedin/siraritaonshe' },
+            { icon: 'fa-instagram', color: 'info', href: 'https://www.instagram.com/lil_keed1' },
             { icon: 'fa-envelope', color: 'danger', href: 'mailto:siraritaonashe@gmail.com' },
           ].map((social, index) => (
             <a 
